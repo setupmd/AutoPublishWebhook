@@ -9,3 +9,11 @@ $ mvn package
 ```
 
 File will be in `target/AutoPublishWebhook.jar`.
+
+### Running
+
+Use the `-Ddiscord.token` flag to specify the Discord token.
+
+```bash
+$ java -Ddiscord.token=<token> -jar target/AutoPublishWebhook.jar
+```
