@@ -12,8 +12,8 @@ File will be in `target/AutoPublishWebhook.jar`.
 
 ### Running
 
-Use the `-Ddiscord.token` flag to specify the Discord token.
+Use the `-Ddiscordtoken` flag to specify the Discord token.
 
 ```bash
-$ java -Ddiscord.token=<token> -jar target/AutoPublishWebhook.jar
+$ java -Ddiscordtoken=<token> -jar target/AutoPublishWebhook.jar
 ```

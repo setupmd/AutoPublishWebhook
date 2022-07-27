@@ -20,7 +20,7 @@ public class AutoPublishWebhook extends ListenerAdapter {
 
   public static void main(String[] args) throws LoginException, InterruptedException {
     JDA jda = JDABuilder
-       .createDefault(System.getProperty("discord.token"))
+       .createDefault(System.getProperty("discordtoken"))
        .enableIntents(GatewayIntent.GUILD_MESSAGES, GatewayIntent.MESSAGE_CONTENT)
        .addEventListeners(new AutoPublishWebhook())
        .setStatus(OnlineStatus.DO_NOT_DISTURB)
